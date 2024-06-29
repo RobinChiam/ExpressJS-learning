@@ -4,7 +4,7 @@
   "description": "This GIT Repository is used to learn Express JS for future projects",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon public_html/server.js"
+    "runTest": "nodemon public_html/server.js"
   },
   "keywords": [],
   "author": "",
