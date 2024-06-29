@@ -1,0 +1,16 @@
+{
+  "name": "expressjs-learning",
+  "version": "1.0.0",
+  "description": "This GIT Repository is used to learn Express JS for future projects",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon public_html/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
