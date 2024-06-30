@@ -1,13 +1,14 @@
-const express = require("express")
-const app = express()
+const express = require("express");
+const app = express();
 
-app.set('view engine', 'ejs')
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs');
 
 app.get("/", (req, res) => {
 
-     console.log("Running on Port 3000")
-     res.render("index")
+     console.log("Running on Port 3000");
+     res.render("index");
 
 })
 
-app.listen(3000)
+app.listen(3000);
